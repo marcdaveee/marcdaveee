@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Marc Dave - Portfolio</title>
+    <link rel="stylesheet" href="main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body class="bg-zinc-900 text-white box-border overflow-x-hidden">
+    <div class="hidden sm:fixed top-3 left-3">
+      <i class="fa-solid fa-bars"></i>
+    </div>
+    <nav class="relative container mx-auto p-5">
+      <div class="flex items-center justify-between my-2">
+        <h2 class="text-lg">MarcDave</h2>
+
+        <div class="hidden md:flex space-x-6 items-center">
+          <a
+            href="#home"
+            class="px-4 py-2 rounded-lg bg-transparent hover:bg-zinc-800 text-white"
+            >Home</a
+          >
+          <a
+            href="#about"
+            class="px-4 py-2 rounded-lg bg-transparent hover:bg-zinc-800 text-white"
+            >About Me</a
+          >
+
+          <a
+            href="#practicum"
+            class="px-4 py-2 rounded-lg bg-transparent hover:bg-zinc-800 text-white"
+            >Practicum</a
+          >
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="w-full relative z-20">
+      <div
+        data-aos="fade-right"
+        class="container flex flex-col-reverse md:flex-row md:justify-around items-center mx-auto mt-16 bg-zinc-900 from-zinc-900 to-green-500"
+      >
+        <div class="">
+          <div class="mb-10 tracking-wide">
+            <div class="flex">
+              <h1
+                class="my-0 text-4xl font-bold text-center md:text-5xl md:text-left"
+              >
+                Nice to meet you!
+              </h1>
+              <div class="animate-wave text-4xl">👋</div>
+            </div>
+
+            <h1
+              class="my-0 max-w-md text-4xl font-bold text-center md:text-5xl md:text-left"
+            >
+              I'm
+              <span class="text-green-500">Marc Dave</span>
+            </h1>
+          </div>
+
+          <p class="w-2/4 text-gray-400">
+            Based in Philippines, I love building web apps that is useful and
+            can provide value to users. I created this to document my tech
+            journey!
+          </p>
+        </div>
+        <div
+          class="animate-bounceSlight md:mr-20 relative z-20 justify-self-end"
+        >
+          <img
+            src="./assets/profile-photo.jpg"
+            alt="profile-photo"
+            class="w-64 h-auto rounded-lg bg-green-500 shadow-lg shadow-green-500/50"
+            data-aos="fade-down"
+          />
+        </div>
+      </div>
+
+      <div
+        class="z-10 w-full content-none absolute left-0 right-0 -bottom-20 bg-gray-950 h-20 -skew-y-3"
+      ></div>
+    </section>
+
+    <section id="about" class="pt-24 w-full bg-gray-950 text-white">
+      <div class="container mx-auto">
+        <div class="flex justify-center">
+          <h2 class="text-lg font-bold">About Me</h2>
+        </div>
+
+        <div
+          class="mt-16 grid grid-cols-2 w-full gap-10 items-center justify-center"
+        >
+          <div class="self-center text-center bg-gray-900 rounded p-7">
+            <i class="fa-solid fa-graduation-cap fa-8x text-green-500"></i>
+          </div>
+          <div class="max-w-lg">
+            <h1 class="text-2xl font-bold mb-4 text-green-500">
+              Educational Background
+            </h1>
+            <p>
+              I am a
+              <span class="text-green-500 font-semibold"
+                >BS Information Technology</span
+              >
+              student in
+              <span class="text-green-500 font-semibold">De La Salle Lipa</span
+              >. This school became my training grounds that provided me the
+              knowledge IT and also helped me to transform those knowledge into
+              practice. I learned vast IT concepts such as programming, security
+              and networking.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pt-24 w-full bg-slate-950 text-white pb-16">
+      <div class="container mx-auto">
+        <div class="flex justify-center">
+          <h2 id="practicum" class="text-lg font-bold">OJT Experience</h2>
+        </div>
+
+        <div
+          class="box-border mt-16 grid grid-cols-2 w-full gap-x-10 gap-y-14 items-start justify-center"
+        >
+          <!-- Company -->
+          <div
+            data-aos="fade-right"
+            class="px-7 py-10 border rounded border-green-500/50 hover:shadow-md hover:shadow-green-500/50"
+          >
+            <div class="">
+              <h1 class="text-2xl font-bold mb-4 text-green-500">
+                Pixel8 Web Solutions
+              </h1>
+              <p>
+                <span class="text-green-500 font-semibold"
+                  >Pixel8 Web Solutions & Consultancy Inc.</span
+                >
+                envisions to provide Websites, Web/Mobile applications &
+                Information Systems for business, firms and government offices
+                here and abroad. They aim to provide clients a good return of
+                investment by improving their business process thru efficient,
+                fast and effective software solutions at par with the
+                international standard and reduce their costs by offering fair
+                and reasonable rates.
+              </p>
+            </div>
+          </div>
+
+          <div data-aos="zoom-in" class="box-border flex justify-start">
+            <img
+              src="./assets/pixel8.png"
+              alt="pixel8-logo"
+              class="h-60 shadow-md shadow-green-500/50 rounded animate-bounceSlight"
+            />
+          </div>
+
+          <!-- Role -->
+          <div class="flex justify-end" data-aos="zoom-in">
+            <img
+              src="./assets/web-screenshot-ojt.png"
+              alt=""
+              class="h-72 rounded shadow-md shadow-green-500/50 animate-bounceSlight"
+            />
+          </div>
+
+          <div
+            class="px-7 py-10 border rounded border-green-500/50 hover:shadow-md hover:shadow-green-500/50"
+          >
+            <div class="" data-aos="fade-left">
+              <h1 class="text-2xl font-bold mb-4 text-green-500">
+                Front-end Dev Intern
+              </h1>
+              <p>
+                As a Front-end dev intern, I was responsible for developing
+                dynamic and responsive user interfaces for the assigned
+                projects, following the company's development standards and
+                desired UI designs. I also had the opportunity to become a team
+                leader during my internship here. Such a fun and fruitful
+                experience!
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex justify-center mt-8 mb-6">
+          <div class="mt-7 text-gray-300 text-sm">
+            <h1 class="text-2xl font-bold mb-4 text-green-400">
+              Accomplishment Reports
+            </h1>
+          </div>
+        </div>
+
+        <div
+          class="flex justify-center items-center flex-wrap space-x-4 w-2/3 mx-auto"
+          data-aos="fade-up"
+        >
+          <a
+            class="px-4 py-4 rounded-md border border-slate-500 hover:cursor-pointer hover:tranform hover:scale-105 ease-in-out duration-300 hover:shadow-md hover:shadow-gray-100 my-4"
+            href="./assets/Marc Dave Valencia-Accomplishment Report-Week1-2.pdf"
+            target="_blank"
+          >
+            <img
+              src="./assets//Screenshot week-1-2.png"
+              alt=""
+              class="h-48 object-cover inline-block"
+            />
+
+            <div class="flex justify-center items-center mt-3">
+              <p class="text-center mr-5">Week 1-2</p>
+              <i class="fa-solid fa-arrow-up-right-from-square block"></i>
+            </div>
+          </a>
+
+          <a
+            class="px-4 py-4 rounded-md border border-slate-500 hover:cursor-pointer hover:tranform hover:scale-105 ease-in-out duration-300 hover:shadow-md hover:shadow-gray-100 my-4"
+            href="./assets/Marc Dave Valencia Accomplishment Report - Week 3-4.pdf"
+            target="_blank"
+          >
+            <img
+              src="./assets//Screenshot week-1-2.png"
+              alt=""
+              class="h-48 object-cover inline-block"
+            />
+
+            <div class="flex justify-center items-center mt-3">
+              <p class="text-center mr-5">Week 3-4</p>
+              <i class="fa-solid fa-arrow-up-right-from-square block"></i>
+            </div>
+          </a>
+
+          <a
+            class="px-4 py-4 rounded-md border border-slate-500 hover:cursor-pointer hover:tranform hover:scale-105 ease-in-out duration-300 hover:shadow-md hover:shadow-gray-100 my-4"
+            href="./assets/VALENCIAMarcDave_AccomplishmentReport-Week_5-6.pdf"
+            target="_blank"
+          >
+            <img
+              src="./assets//Screenshot week-1-2.png"
+              alt=""
+              class="h-48 object-cover inline-block"
+            />
+
+            <div class="flex justify-center items-center mt-3">
+              <p class="text-center mr-5">Week 5-6</p>
+              <i class="fa-solid fa-arrow-up-right-from-square block"></i>
+            </div>
+          </a>
+
+          <a
+            class="px-4 py-4 rounded-md border border-slate-500 hover:cursor-pointer hover:tranform hover:scale-105 ease-in-out duration-300 hover:shadow-md hover:shadow-gray-100 my-4"
+            href="./assets/VALENCIA,MarcDave_AccomplishmentReport-Week_7-8.pdf"
+            target="_blank"
+          >
+            <img
+              src="./assets//Screenshot week-1-2.png"
+              alt=""
+              class="h-48 object-cover inline-block"
+            />
+
+            <div class="flex justify-center items-center mt-3">
+              <p class="text-center mr-5">Week 7-8</p>
+              <i class="fa-solid fa-arrow-up-right-from-square block"></i>
+            </div>
+          </a>
+
+          <a
+            class="px-4 py-4 rounded-md border border-slate-500 hover:cursor-pointer hover:tranform hover:scale-105 ease-in-out duration-300 hover:shadow-md hover:shadow-gray-100 my-4"
+            href="./assets/VALENCIA,MarcDave_AccomplishmentReport-Week_9-10.pdf"
+            target="_blank"
+          >
+            <img
+              src="./assets//Screenshot week-1-2.png"
+              alt=""
+              class="h-48 object-cover inline-block"
+            />
+
+            <div class="flex justify-center items-center mt-3">
+              <p class="text-center mr-5">Week 9-10</p>
+              <i class="fa-solid fa-arrow-up-right-from-square block"></i>
+            </div>
+          </a>
+
+          <a
+            class="px-4 py-4 rounded-md border border-slate-500 hover:cursor-pointer hover:tranform hover:scale-105 ease-in-out duration-300 hover:shadow-md hover:shadow-gray-100 my-4"
+            href="./assets/VALENCIAMarcDave_AccomplishmentReport-Week_11-12.pdf"
+            target="_blank"
+          >
+            <img
+              src="./assets//Screenshot week-1-2.png"
+              alt=""
+              class="h-48 object-cover inline-block"
+            />
+
+            <div class="flex justify-center items-center mt-3">
+              <p class="text-center mr-5">Week 11-12</p>
+              <i class="fa-solid fa-arrow-up-right-from-square block"></i>
+            </div>
+          </a>
+        </div>
+
+        <div class="flex justify-center mt-8 mb-6">
+          <div class="mt-7 text-gray-300 text-sm">
+            <h1 class="text-2xl font-bold mb-4 text-green-400">
+              Skills Acquired
+            </h1>
+          </div>
+        </div>
+
+        <div class="flex justify-center flex-wrap space-x-4" data-aos="fade-up">
+          <div
+            class="px-4 py-4 rounded-md border border-slate-500 hover:transform hover:-translate-y-4 ease-in-out duration-300 hover:border-green-500 hover:shadow-green-500/50 hover:shadow-md my-4"
+          >
+            <i class="fa-brands fa-vuejs fa-5x mb-3 text-green-300"></i>
+            <p class="text-center">Vue</p>
+          </div>
+
+          <div
+            class="px-4 py-4 rounded-md border border-slate-500 flex flex-col justify-between hover:transform hover:-translate-y-4 ease-in-out duration-300 hover:border-green-500 hover:shadow-green-500/50 hover:shadow-md my-4"
+          >
+            <img
+              src="https://user-images.githubusercontent.com/8939680/57233884-20344080-6fe5-11e9-8df3-0df1282e1574.png"
+              alt=""
+              class="object-contain h-16 w-20 bg-blend-burn"
+            />
+            <!-- <i class="fa-brands fa-vuejs fa-5x mb-3"></i> -->
+            <p class="text-center">Axios</p>
+          </div>
+
+          <div
+            class="px-4 py-4 rounded-md border border-slate-500 flex flex-col justify-between hover:transform hover:-translate-y-4 ease-in-out duration-300 hover:border-green-500 hover:shadow-green-500/50 hover:shadow-md my-4"
+          >
+            <img
+              src="https://upload.wikimedia.org/wikipedia/en/2/29/Quasar_Logo.png"
+              alt=""
+              class="object-contain h-16 w-20 bg-blend-burn text-white"
+            />
+            <!-- <i class="fa-brands fa-vuejs fa-5x mb-3"></i> -->
+            <p class="text-center">Quasar</p>
+          </div>
+
+          <div
+            class="px-4 py-4 rounded-md border border-slate-500 hover:transform hover:-translate-y-4 ease-in-out duration-300 hover:border-green-500 hover:shadow-green-500/50 hover:shadow-md my-4"
+          >
+            <i class="fa-brands fa-git-alt fa-5x mb-3 text-red-600"></i>
+            <p class="text-center">Git</p>
+          </div>
+
+          <div
+            class="px-4 py-4 rounded-md border border-slate-500 flex flex-col justify-between hover:transform hover:-translate-y-4 ease-in-out duration-300 hover:border-green-500 hover:shadow-green-500/50 hover:shadow-md my-4"
+          >
+            <img
+              src="https://static-00.iconduck.com/assets.00/cypress-icon-512x511-29zvfts6.png"
+              alt=""
+              class="object-contain h-16 w-auto"
+            />
+            <!-- <i class="fa-brands fa-vuejs fa-5x mb-3"></i> -->
+            <p class="text-center">Cypress</p>
+          </div>
+
+          <div
+            class="px-4 py-4 rounded-md border border-slate-500 hover:transform hover:-translate-y-4 ease-in-out duration-300 hover:border-green-500 hover:shadow-green-500/50 hover:shadow-md my-4"
+          >
+            <i class="fa-brands fa-gitlab fa-5x mb-3 text-red-600"></i>
+            <p class="text-center">Gitlab</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-zinc-900" data-aos="zoom-in">
+      <div class="container mx-auto">
+        <div
+          class="mx-auto mt-10 mb-10 pb-10 pt-10 px-14 border-2 rounded-lg border-green-400 w-2/3"
+        >
+          <div class="flex justify-center mb-6">
+            <h2 class="text-green-400 text-2xl font-bold">
+              Reflecting this Journey
+            </h2>
+          </div>
+
+          <div class="text-sm text-gray-200 leading-relaxed">
+            <p class="mb-2 leading-relaxed">
+              My internship experience here at
+              <span class="text-green-500">Pixel8</span> really solidified my
+              growth not only as a developer, but as a better professional in
+              the future. This company has provided me with the necessary
+              challenges I needed in order to step up my skills, especially in
+              <span class="text-green-500">front-end development</span>. But
+              those challenges didn't only help me to improve my development
+              skills, but also taught me
+              <span class="text-green-500">"grit"</span>. Being introduced to
+              how they structure their development projects was a bit
+              overwhelming for me at first. But I didn't let it discourage me;
+              instead, I made huge adjustments by allotting most of my time to
+              figuring out their project structure. That's why I'm really
+              thankful to myself because I didn't give up and took it as an
+              opportunity to grow, which really paid off in the end.
+            </p>
+
+            <p class="mb-2 leading-relaxed">
+              As an intern, I really enjoyed the process of learning their
+              tools. I was able to utilize a front-end framework
+              <span class="text-green-600">(VUE JS)</span>, which helped me to
+              develop modern web UIs more effectively. Moreover, I was also
+              exposed a lot to collaborative development with the use of
+              <span class="text-green-500">Git</span> and
+              <span class="text-green-500">GitLab</span> tools, which was really
+              cool because I started to get comfortable with it! Another
+              memorable experience in this journey was when I was assigned to
+              become a team leader of a team. As someone who wasn't exposed to
+              leadership roles, this opportunity to become a
+              <span class="text-green-500">team leader</span> really brought a
+              lot of growth to me. It taught me to communicate effectively with
+              my members, manage and organize tasks well, and most especially,
+              improved my leadership skills.
+            </p>
+
+            <p class="leading-relaxed">
+              I'm indeed grateful for this journey with
+              <span class="text-green-500">Pixel8!</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-neutral-950">
+      <div class="container p-14 mx-auto">
+        <div class="flex justify-between">
+          <div class="flex justify-between space-x-5">
+            <a
+              href="https://github.com/marcdaveee"
+              target="_blank"
+              class="hover:text-green-500"
+              ><i class="fa-brands fa-github fa-2x"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/marc-dave-valencia/"
+              target="_blank"
+              class="hover:text-green-500"
+              ><i class="fa-brands fa-linkedin fa-2x"></i
+            ></a>
+          </div>
+          <h2>Copyright &copy; 2024</h2>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
